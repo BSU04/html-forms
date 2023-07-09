@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    margin-top: 0;
+    color: floralwhite;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+form, details {
+    background-color: rebeccapurple;
+    width: 200vh;
+    height: 100vh;
+    padding-top: 4px;
+    padding-left: 5px;
+
+}
+
+form,details,label {
+    font-size: 16px;
+}

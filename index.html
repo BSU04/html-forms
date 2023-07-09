@@ -4,42 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>STUDENT APPLICATION FORM</h1>
     <form method="POST"
-     action="https://script.google.com/macros/s/AKfycbyWyQMVSNSFCwY7iviF7P05LQ0HPOfb6nOVqomPAad9yx58xPFfuRZ2ct50i9_GaLzF/exec">
+     action="https://script.google.com/macros/s/AKfycbwMfK1yTJDORp9KKJfse6ewRFBTGRHFv9ro8vqk49u8s9MWD6heWW10aiHsCqmrPlf_VQ/exec">
+        <div class="details">
+            <h1>STUDENT APPLICATION FORM</h1>
+            <h3>PERSONAL DETAILS</h3>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" value=""><br><br>
+            <label for="address">Address:</label><br>
+            <input type="text-area" id="addr" name="address" value=""><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" max="100" value=""><br><br>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <br><br>
+            <label for="phno">Contact:</label><br>
+            <input type="text" id="contact" name="contact" value=""><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
 
+            <h4>MARKS</h4>
+            <label for="class 10"></label>
+            <input type="number" id="class 10" name="CGPA(10th)" placeholder="Class 10 CGPA">
+            <br><br>
+            <label for="class 12"></label>
+            <input type="number" id="class 12" name="CGPA(12th)" placeholder="Class 12 CGPA">
+            <br><br>
+            <label for="class 10"></label>
+            <input type="number" id="UG" name="CGPA(UG)" placeholder="UG CGPA">
+            <br><br>
 
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" value=""><br><br>
-        <label for="addr">Address:</label><br>
-        <input type="text-area" id="addr" name="addr" value=""><br><br>
-        <label for="age">Age:</label><br>
-        <input type="number" id="age" name="age" min="0" max="100" value=""><br><br>
-        <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="female"> Female
-        <br><br>
-        <label for="phno">Phone number:</label><br>
-        <input type="text" id="phno" name="phno" value=""><br><br>
-        <label for="email">email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
+            <label for="c1"> Course:  </label>
+            <input type="checkbox" id="c1" name="course" value="MCA">
+            <label for="c1"> MCA</label>
+            <input type="checkbox" id="c2" name="course" value="MScCS">
+            <label for="c2"> MScCS</label>
+            <input type="checkbox" id="c3" name="course" value="MSW">
+            <label for="c3"> MSW</label>
+            <input type="checkbox" id="c4" name="course" value="B.tech">
+            <label for="c4"> B.tech</label>
+            <input type="checkbox" id="c5" name="course" value="M.tech">
+            <label for="c5"> M.tech</label><br><br>
 
-        <label for="class 10">Class 10 CGPA:</label>
-        <input type="number" id="class 10" name="CGPA(10th)" placeholder="Class 10 CGPA">
-        <br><br>
-        <label for="c1"> Course</label>
-        <input type="checkbox" id="c1" name="course" value="MCA">
-        <label for="c1"> MCA</label>
-        <input type="checkbox" id="c2" name="course" value="MScCS">
-        <label for="c2"> MScCS</label>
-        <input type="checkbox" id="c3" name="course" value="MSW">
-        <label for="c3"> MSW</label><br><br>
+            <label for="mypic"></label>
+            <input type="file" id="photo" name="photo"><br><br>
+            
+            <input type="submit" value="Submit" style="height: 30px;width: 100px;font-size: 16px;background-color: rgb(4, 142, 222);color: white;
+            border-radius: 13px;border-color: white;">
 
-        <label for="mypic">Select photo:</label>
-        <input type="file" id="photo" name="photo"><br><br>
-
-        <input type="submit" value="Submit">
+        </div>
     </form>
 </body>
 </html>
